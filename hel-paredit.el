@@ -78,7 +78,7 @@
   "C-<right>"   'paredit-forward-slurp-sexp
   "C-<left>"    'paredit-forward-barf-sexp
   "C-M-<left>"  'paredit-backward-slurp-sexp
-  "C-M-<right>" 'paredit-backward-slurp-sexp)
+  "C-M-<right>" 'paredit-backward-barf-sexp)
 
 (hel-keymap-set hel-paredit-mode-map :state 'insert
   ";"      'paredit-semicolon
